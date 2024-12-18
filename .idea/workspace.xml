@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4d587fba-5c74-42db-83cf-2936b542b53c" name="Changes" comment="Version 1.0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/EvaluationDuringTraining.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/EvaluationDuringTraining.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/confusion-matrix.png" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/confusion-matrix.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/OuputPreditiction.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/OuputPreditiction.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,18 +28,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "cdkewin"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;cdkewin&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/cdkewin/HousePricingPredictionNN.git",
-    "accountId": "0bc06fe5-99c4-4ded-bbb7-312506597685"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/cdkewin/HousePricingPredictionNN.git&quot;,
+    &quot;accountId&quot;: &quot;0bc06fe5-99c4-4ded-bbb7-312506597685&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -61,7 +59,7 @@
     "Python.OuputPreditiction.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "plt__fix",
+    "git-widget-placeholder": "master",
     "settings.editor.selected.configurable": "advanced.settings"
   }
 }]]></component>

@@ -1,5 +1,6 @@
 import Main
-
+import matplotlib.pyplot as plt
+import numpy as np
 x = Main.X_test[:5, :]  # the first 5 examples in the test dataset
 yhat = Main.model(x)
 print('Input sample: \n\n', x)
