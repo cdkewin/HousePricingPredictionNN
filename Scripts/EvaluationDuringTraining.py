@@ -1,5 +1,5 @@
 import Main
-
+import matplotlib.pyplot as plt
 
 fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(13,5))
 fig.suptitle('Loss and accuracy during training')
