@@ -1,17 +1,12 @@
-import pandas as pd
-import numpy as np
-from sklearn import preprocessing
-import requests
-from sklearn.model_selection import train_test_split
 import os
+
+import pandas as pd
+from sklearn import preprocessing
+from sklearn.model_selection import train_test_split
+
 os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0' #stop the tensorflow warnings
-import tensorflow as tf
-from tensorflow import keras
 from keras.models import Sequential
 from keras.layers import Dense
-from keras import layers
-from tensorflow.keras.utils import plot_model
-
 
 #
 # url = 'https://drive.google.com/uc?export=download&id=1MOZaQ5vmUu6ChdfTva-qjZ__UAiOmhh9'  #1461 house inquiries
@@ -69,12 +64,14 @@ model.compile(optimizer='adam',
 hist = model.fit(
     X_train,
     Y_train,
-    batch_size = 64,  # number of samples per gradient update (default 32), size of mini-batch.
+    batch_size = 2,  # number of samples per gradient update (default 32), size of mini-batch.
     epochs=100,  #  number of epochs to train the model
 
     verbose = 1, # 1 for progress bar, 2 for each row for an epoch
     validation_data=(X_val, Y_val))
-
+#improved accuracy to 0.91 32 mini batch and 300 epochs
+#using the adam optimizer still works best by far
+#max accuracy obtained is still 0.92
 
 
 
